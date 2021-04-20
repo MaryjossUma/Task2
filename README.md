@@ -1,22 +1,22 @@
-# Task1. Mandatory Task
+# Task2. Advanced Task
 
-We have to face three challenges here:
+We have to face two challenges here:
 
-- Mark in colour the communities.
-- Continue using the size of the circle as an indicator of severity.
+- To mark communities in colour.
+- Continue to use the size of the circle as an indicator of severity.
 
 # Steps
 
-- We will take as starting example _task1_, let's copy the content from that folder and execute _npm install_.
+- Let's take _task1_ as an initial example, copy the contents of that folder and run _npm install_.
 
 ```bash
 npm install
 ```
 
-- We have differences between the names of the communities. We rename the names in the files _communities.ts_ and
-  _dataCommuniteies.ts_ to be the same as in _spain.json_.
+- There are differences between the names of the communities in the different files. We change the names in the _communities.ts_
+  and _dataCommuniteies.ts_ files to be the same as in _spain.json_.
 
-- We create a color scale, with the same domina as radius scale.
+- We create a colour scale, with the same domain as the radius scale.
 
 _./src/index.ts_
 
@@ -35,7 +35,7 @@ _./src/index.ts_
 +  ]);
 ```
 
-- Also we add a method to assign to each community a color.
+- We also added a method to assign each community a colour.
 
 _./src/index.ts_
 
@@ -65,8 +65,8 @@ svg
 +  });
 ```
 
--We also have to add it to the update method, so that when clicking on the buttons,
-the colours of the communities are painted with the new data.
+- We also have to add it to the update method, so that when clicking on the buttons,
+  the colours of the communities are painted with the new data.
 
 _./src/index.ts_
 
